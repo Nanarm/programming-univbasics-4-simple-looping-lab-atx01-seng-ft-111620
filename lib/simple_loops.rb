@@ -20,7 +20,7 @@ def loop_message_n_times(string, n)
 end
 
 
-def output_array
+def output_array(array)
   
 end
 
