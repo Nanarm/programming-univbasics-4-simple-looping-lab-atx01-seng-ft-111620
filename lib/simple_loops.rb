@@ -34,9 +34,9 @@ def return_string_array(array)
   counter = 0 
   
   while counter <= array.length do
-    
-    puts array
+    new = array.join
+    puts new
     counter += 1
-  return array
+  return new
   
 end
