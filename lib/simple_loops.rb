@@ -34,7 +34,7 @@ def return_string_array(array)
   counter = 0 
   
   while counter <= array.length do
-    new = array.join
+    new = array.map(&:to_s)
     puts new
     counter += 1
   return new
