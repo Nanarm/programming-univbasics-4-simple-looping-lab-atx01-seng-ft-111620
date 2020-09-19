@@ -38,5 +38,5 @@ def return_string_array(array)
     puts new
     counter += 1
   return new
-  
+end
 end
